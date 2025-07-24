@@ -2,4 +2,47 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+.text-purple {
+    color: #8e44ad;
+}
+.btn-purple {
+    background-color: #a678d8;
+    color: #fff;
+    border: none;
+}
+.btn-purple:hover {
+    background-color: #8e44ad;
+}
+
+/* Hero Split Section */
+.hero-section {
+    height: 100vh;
+}
+.half {
+    width: 50%;
+    height: 100%;
+}
+.left-half {
+    background-color: #a678d8;
+}
+.right-half {
+    background-color: #f5f5f5;
+}
+.hero-section h1 {
+    font-size: 4rem;
+}
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Purple Background  */
+.bg-light-purple {
+    background-color: #f5edfb;
 }
